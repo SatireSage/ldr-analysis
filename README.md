@@ -42,7 +42,6 @@ This project demonstrates how to use MATLAB in conjunction with an Arduino to mo
 
 Connect the components as shown in the schematic below:
 
-
 - **LDR and Fixed Resistor Configuration:**
   - Connect one end of the LDR to the 5V pin on the Arduino.
   - Connect the other end of the LDR to the analog pin **A0**.
@@ -50,6 +49,9 @@ Connect the components as shown in the schematic below:
   - Connect the other end of the fixed resistor to **GND** on the Arduino.
 
 This creates a voltage divider where the voltage at A0 varies with light intensity.
+
+<img width="415" alt="Screenshot 2024-10-17 at 4 28 13 AM" src="https://github.com/user-attachments/assets/e9d3c8e8-76df-47c7-a111-886783ec98f0">
+
 
 ## Installation
 
@@ -72,7 +74,7 @@ This creates a voltage divider where the voltage at A0 varies with light intensi
 
 2. **Run the MATLAB Script:**
 
-   - Open the MATLAB script `ldr_data_acquisition.m` in MATLAB.
+   - Open the MATLAB script `LDR_Final.m` in MATLAB.
    - Run the script.
 
 3. **Observe the Output:**
